@@ -86,6 +86,8 @@ CONTROLNET_MODELS=(
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
 function provisioning_start() {
+    curl https://raw.githubusercontent.com/contradeep/stable-diffusion-webui/main/config/provisioning/ui.json > /workspace/stable-diffusion-webui/ui-config.json
+
     source /opt/ai-dock/etc/environment.sh
     DISK_GB_AVAILABLE=$(($(df --output=avail -m "${WORKSPACE}" | tail -n1) / 1000))
     DISK_GB_USED=$(($(df --output=used -m "${WORKSPACE}" | tail -n1) / 1000))
