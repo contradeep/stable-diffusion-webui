@@ -823,7 +823,7 @@
     "civitai_interface/Hide installed models/value": false,
     "civitai_interface/NSFW content/value": true,
     "civitai_interface/Tile size:/value": 8,
-    "civitai_interface/Tile count:/value": 15,
+    "civitai_interface/Tile count:/value": 40,
     "civitai_interface/Search type:/visible": true,
     "civitai_interface/Content type:/visible": true,
     "civitai_interface/Base model:/visible": true,
