@@ -33,7 +33,7 @@ EXTENSIONS=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/290640"
+    #"https://civitai.com/api/download/models/290640"
     "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
@@ -41,15 +41,15 @@ CHECKPOINT_MODELS=(
 )
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/135867"
-    "https://civitai.com/api/download/models/450029"
-    "https://civitai.com/api/download/models/382152"
-    "https://civitai.com/api/download/models/244808"
-    "https://civitai.com/api/download/models/354128"
-    "https://civitai.com/api/download/models/330475"
-    "https://civitai.com/api/download/models/398847"
-    "https://civitai.com/api/download/models/461354"
-    "https://civitai.com/api/download/models/398847"
+    #"https://civitai.com/api/download/models/135867"
+    #"https://civitai.com/api/download/models/450029"
+    #"https://civitai.com/api/download/models/382152"
+    #"https://civitai.com/api/download/models/244808"
+    #"https://civitai.com/api/download/models/354128"
+    #"https://civitai.com/api/download/models/330475"
+    #"https://civitai.com/api/download/models/398847"
+    #"https://civitai.com/api/download/models/461354"
+    #"https://civitai.com/api/download/models/398847"
 )
 
 VAE_MODELS=(
